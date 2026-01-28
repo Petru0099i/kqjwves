@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Work MMP | Frentes y Fachadas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0b3c5d, #1d6fa5);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header img {
+            max-width: 220px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 10px 0 5px;
+            font-size: 40px;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #0b3c5d;
+        }
+
+        /* SERVICIOS */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #1d6fa5;
+            margin-bottom: 15px;
+        }
+
+        /* GALERÍA */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* BLOQUE DESTACADO */
+        .highlight {
+            background: #1d6fa5;
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .highlight h2 {
+            color: white;
+        }
+
+        .highlight p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .whatsapp {
+            display: inline-block;
+            margin-top: 30px;
+            background: #25d366;
+            color: white;
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .whatsapp:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #0b3c5d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="workmmp.jpg" alt="Work MMP Logo">
+    <h1>Work MMP</h1>
+    <p>Especialistas en Frentes y Fachadas</p>
+</header>
+
+<!-- SERVICIOS -->
+<section>
+    <h2>Nuestros Servicios</h2>
+
+    <div class="services">
+        <div class="card">
+            <h3>Hidrolavado</h3>
+            <p>Limpieza profunda de frentes y fachadas.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pintura y Restauración</h3>
+            <p>Renovación y recuperación de superficies exteriores.</p>
+        </div>
+
+        <div class="card">
+            <h3>Impermeabilizaciones</h3>
+            <p>Protección contra humedad y filtraciones.</p>
+        </div>
+    </div>
+</section>
+
+<!-- GALERÍA -->
+<section>
+    <h2>Galería de Trabajos</h2>
+
+    <div class="gallery">
+        <img src="trabajo1.jpg" alt="Trabajo realizado por Work MMP">
+        <img src="trabajo2.jpg" alt="Trabajo realizado por Work MMP">
+        <img src="trabajo3.jpg" alt="Trabajo realizado por Work MMP">
+        <img src="trabajo4.jpg" alt="Trabajo realizado por Work MMP">
+        <img src="trabajo5.jpg" alt="Trabajo realizado por Work MMP">
+        <img src="trabajo6.jpg" alt="Trabajo realizado por Work MMP">
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="highlight">
+    <h2>Especial Atención a Consorcios y Empresas</h2>
+
+    <p>
+        ✔ Mantenimiento profesional<br>
+        ✔ Trabajos garantizados<br>
+        ✔ Presupuestos sin cargo<br>
+        ✔ Consultas sin compromiso
+    </p>
+
+    <a class="whatsapp" href="https://wa.me/5491162979758" target="_blank">
+        Contactanos por WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>Work MMP © 2026 | Frentes y Fachadas</p>
+</footer>
+
+</body>
+</html>
